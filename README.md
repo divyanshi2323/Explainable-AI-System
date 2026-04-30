@@ -1,40 +1,40 @@
-\# Explainable AI System
+# Explainable AI System
 
 
 
-\## Project Overview
+## Project Overview
 
 This project builds an Explainable AI system for predicting heart disease risk using Machine Learning.
 
 
 
-\## Features
+## Features
 
-\- Predicts heart disease risk
+- Predicts heart disease risk
 
-\- SHAP for explainability
+- SHAP for explainability
 
-\- LIME for local explanation
+- LIME for local explanation
 
-\- Streamlit UI
-
-
-
-\## Technologies Used
-
-\- Python
-
-\- Scikit-learn
-
-\- SHAP
-
-\- LIME
-
-\- Streamlit
+- Streamlit UI
 
 
 
-\## How to Run
+## Technologies Used
+
+- Python
+
+- Scikit-learn
+
+- SHAP
+
+- LIME
+
+- Streamlit
+
+
+
+## How to Run
 
 pip install -r requirements.txt  
 
@@ -42,17 +42,17 @@ streamlit run app.py
 
 
 
-\## Output
+## Output
 
-\- SHAP plots
+- SHAP plots
 
-\- LIME explanation
+- LIME explanation
 
-\- Interactive UI
+- Interactive UI
 
 
 
-\## Conclusion
+## Conclusion
 
 This system improves transparency and trust in machine learning models.
 
