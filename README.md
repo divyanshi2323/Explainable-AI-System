@@ -23,19 +23,19 @@ This project develops an Explainable Artificial Intelligence (XAI) system for pr
 
 ## Technologies Used
 
-Python
+- Python
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Scikit-learn
+- Scikit-learn
 
-SHAP
+- SHAP
 
-Matplotlib
+- Matplotlib
 
-Streamlit
+- Streamlit
 
 
 
