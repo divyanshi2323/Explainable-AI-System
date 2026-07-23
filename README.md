@@ -4,24 +4,21 @@
 
 ## Project Overview
 
-This project develops an Explainable Artificial Intelligence (XAI) system for predicting the risk of heart disease using Machine Learning. Unlike traditional black-box models, this application explains the reasoning behind every prediction using SHAP and LIME, making the model more transparent and trustworthy. The system is deployed through a Streamlit web application that allows users to interactively predict heart disease risk and visualize feature importance.
+This project develops an Explainable Artificial Intelligence (XAI) system for predicting the risk of heart disease using Machine Learning. Unlike traditional black-box models, this application explains the reasoning behind every prediction using SHAP , making the model more transparent and trustworthy. The system is deployed through a Streamlit web application that allows users to interactively predict heart disease risk and visualize feature importance.
 
 
 
 ## Features
 
-✔ Predicts heart disease risk using Machine Learning
+- Predicts heart disease risk using Machine Learning
 
-✔ Explains predictions using SHAP
+- Explains predictions using SHAP
 
-✔ Generates local explanations using LIME
+- Interactive Streamlit web interface
 
-✔ Interactive Streamlit web interface
+- Visualizes feature importance
 
-✔ Visualizes feature importance
-
-✔ Improves transparency of AI predictions
-
+- Improves transparency of AI predictions
 
 
 ## Technologies Used
@@ -35,8 +32,6 @@ NumPy
 Scikit-learn
 
 SHAP
-
-LIME
 
 Matplotlib
 
@@ -82,13 +77,11 @@ The application generates
 
 • SHAP Waterfall Plot
 
-• LIME Explanation
-
 • Interactive Streamlit dashboard
 
 
 
 ## Conclusion
 
-Traditional machine learning models often behave as "black boxes." This project demonstrates how Explainable AI techniques such as SHAP and LIME can improve transparency, interpretability, and trust in AI-based healthcare applications while providing meaningful insights into model predictions.
+Traditional machine learning models often behave as "black boxes." This project demonstrates how Explainable AI techniques like SHAP can improve transparency, interpretability, and trust in AI-based healthcare applications while providing meaningful insights into model predictions.
 
