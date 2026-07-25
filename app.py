@@ -1,5 +1,4 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import pickle
 import shap
@@ -12,8 +11,8 @@ model = pickle.load(open("model.pkl", "rb"))
 explainer = shap.Explainer(model)
 
 # UI Title
-st.title("Explainable AI System ")
-st.write("Heart Disease Prediction with Explanation")
+st.title("Explainable AI System for Heart Disease Prediction 🫀")
+st.write("Predict heart disease risk using a Random Forest model with SHAP-based explainability.")
 
 st.subheader("Enter Patient Details")
 
@@ -57,7 +56,7 @@ if st.button("Predict"):
     # =========================
     # SHAP EXPLANATION SECTION
     # =========================
-    st.subheader("Explanation (SHAP)")
+    st.subheader("📊 SHAP Explanation")
 
     shap_values = explainer(input_data)
 
@@ -73,7 +72,7 @@ if st.button("Predict"):
     # =========================
     # TEXT EXPLANATION SECTION
     # =========================
-    st.subheader("Key Factors Affecting Prediction")
+    st.subheader("🔍 Key Factors Affecting the Prediction")
 
     values = shap_values.values
 
@@ -84,6 +83,22 @@ if st.button("Predict"):
         values = values[0]
 
     feature_names = input_data.columns
+
+    feature_labels = {
+    "age": "Age",
+    "sex": "Sex",
+    "cp": "Chest Pain Type",
+    "trestbps": "Resting Blood Pressure",
+    "chol": "Cholesterol",
+    "fbs": "Fasting Blood Sugar",
+    "restecg": "Rest ECG",
+    "thalach": "Maximum Heart Rate",
+    "exang": "Exercise-Induced Angina",
+    "oldpeak": "Oldpeak",
+    "slope": "Slope",
+    "ca": "Number of Major Vessels",
+    "thal": "Thalassemia"
+}
 
     # Create importance table
     importance_df = pd.DataFrame({
@@ -98,8 +113,10 @@ if st.button("Predict"):
 
     # Display explanation
     for _, row in top_features.iterrows():
-        if row["Impact"] > 0:
-            st.write(f"🔴 {row['Feature']} increased the risk")
-        else:
-            st.write(f"🔵 {row['Feature']} decreased the risk")
+       feature = feature_labels[row["Feature"]]
+
+       if row["Impact"] > 0:
+          st.write(f"🔴 {feature} increased the risk")
+       else:
+          st.write(f"🔵 {feature} decreased the risk")
 
