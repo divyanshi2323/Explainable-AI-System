@@ -41,14 +41,17 @@ This project develops an Explainable Artificial Intelligence (XAI) system for pr
 ## Screenshots
 
 ### Home Page
+
 <img width="662" height="851" alt="Screenshot 2026-07-25 101913" src="https://github.com/user-attachments/assets/3253192d-258e-4e5a-9e5d-334e854e0558" />
 
 
 ### Prediction and SHAP Explanation
+
 <img width="637" height="856" alt="Screenshot 2026-07-25 101946" src="https://github.com/user-attachments/assets/284d240b-cd9a-40e2-bd38-df21a75f170d" />
 
 
 ### Key Factors Affecting the Prediction
+
 <img width="652" height="868" alt="Screenshot 2026-07-25 102044" src="https://github.com/user-attachments/assets/a6823e6c-abb1-4610-8d82-4ae9bd379aa9" />
 
 
