@@ -104,5 +104,5 @@ The application generates
 
 ## Conclusion
 
-Traditional machine learning models often behave as "black boxes." This project demonstrates how Explainable AI techniques like SHAP can improve transparency, interpretability, and trust in AI-based healthcare applications while providing meaningful insights into model predictions.
+Traditional machine learning models often behave as "black boxes". This project demonstrates how Explainable AI techniques like SHAP can improve transparency, interpretability and trust in AI-based healthcare applications while providing meaningful insights into model predictions.
 
