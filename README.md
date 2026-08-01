@@ -1,10 +1,10 @@
-# Explainable AI System for Heart Disease Prediction
+# Explainable AI Application for Heart Disease Prediction
 
 
 
 ## Project Overview
 
-This project develops an Explainable Artificial Intelligence (XAI) system for predicting the risk of heart disease using a Random Forest classifier. Unlike traditional black-box models, this application explains the reasoning behind the prediction using SHAP , making the model more transparent and trustworthy. The system is deployed through a Streamlit web application that allows users to interactively predict heart disease risk and visualize feature importance.
+This project develops an Explainable Artificial Intelligence (XAI) application for predicting the risk of heart disease using a Random Forest classifier. Unlike traditional black-box models, this application explains the reasoning behind the prediction using SHAP , making the model more transparent and trustworthy. The system is deployed through a Streamlit web application that allows users to interactively predict heart disease risk and visualize feature importance.
 
 
 
